@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.container {
+    padding: 33px 34px;
+    background-color: burlywood;
+    margin: initial;
+    border: black;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container p {
+    font-size: 23px;
+
+}
+
+.container h2 {
+    font-size: 15px;
+    text-align: right;
+    margin-top: 0%;
+}
