@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <meta name="veiw point" content="width=device-width, initial-scale=1.0">
+            <title>Godfrey's personal portfolio</title>
+            <link rel="stylesheet" href="../CSS/contact.css">
+            <link rel="stylesheet" href="../JS/contact.js">
+        </head>
+        <body>
+            <!-- The sidebar -->
+<div class="sidebar">
+    <a class="active" href="../index.html">Home</a>
+    <a href="../PAGES/about.html">About me</a>
+    <a href="../PAGES/work.html">What I do</a>
+    <a href="./projects..html">My Projects</a>
+    <a href="#contact">Contact Me</a>
+  </div>
+</div>
+<main>
+    <div class="my-header">
+        <h1>Contact Section</h1>
+    </div>
+    
+    <div class="contact-text">
+        <p>Get in touch with me. Just leave a comment below, i will get back to you as soon as possible.
+         Make sure you include your name and your email address. Am at your service. Thank you.</p>
+    </div>
+    <h3 class="comment">Leave a comment below</h3>
+
+<div class="container">
+  <form name="form" action="/action_page.php" onsubmit="return validateForm()" method="POST">
+    <label for="firstname">First Name</label>
+    <input type="text" name="firstname" placeholder="Your First name..">
+
+    <label for="lastname">Last Name</label>
+    <input type="text" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email Address</label>
+    <input type="text" name="emailaddress" placeholder="Your Email Address..">
+
+    <label for="country">Country</label>
+    <select name="country">
+      <option value="uganda">Uganda</option>
+      <option value="kenya">Kenya</option>
+      <option value="tanzania">Tanzania</option>
+    </select>
+
+    <label for="comment">Comment</label>
+    <textarea name="comment" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</main>
+  </body>
+  </html>
