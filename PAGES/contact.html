@@ -30,7 +30,7 @@
     <h3 class="comment">Leave a comment below</h3>
 
 <div class="container">
-  <form name="form" action="/submit.html" onsubmit="myFunction()" target="_blank" method="GET">
+  <form name="form" action="../index.html" onsubmit="myFunction()" target="_blank" method="GET">
     <label for="firstname">First Name</label>
     <input type="text" name="firstname" placeholder="Your First name.." required>
 
@@ -50,12 +50,12 @@
     <label for="comment">Comment</label>
     <textarea name="comment" placeholder="Write something.." style="height:200px" required></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" onclick="alert('Your views and comments will be submitted bto Godfrey. Proceed!')">
   </form>
 
   <script>
     function myFunction() {
-      alert("Your comment has been successfully submitted.");
+      alert("Your comment has been successfully submitted. Go Back to the Homepage");
     }
     </script>
     
