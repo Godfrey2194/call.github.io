@@ -5,16 +5,20 @@ body {
 
 .container {
     padding: 33px 34px;
-    background-color: burlywood;
+    background-color: rgb(222, 135, 222);
     margin: initial;
     border: black;
     border-radius: 15px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    height: 70%;
 }
 
 .container p {
-    font-size: 23px;
+    font-size: 27px;
+    font-weight: 600;
+    height: 30px;
 
 }
 
@@ -22,4 +26,9 @@ body {
     font-size: 15px;
     text-align: right;
     margin-top: 0%;
+    color: rgb(3, 34, 18);
+}
+
+.container h1 {
+    font-size: 34px;
 }
