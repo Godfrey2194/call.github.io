@@ -6,7 +6,14 @@
         <title>Godfrey's personal portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../CSS/contact.css">
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("form").submit(function(){
+    alert("Your views have been submitted successfully");
+  });
+});
+</script>
       
     </head>
     <body>
@@ -35,7 +42,7 @@
     <h3 class="comment">Leave a comment below</h3>
 
 <div class="container">
-  <form name="form" action="../submit.html" onsubmit="myFunction()" target="_blank" method="GET">
+  <form action="../submit.html" onsubmit="myFunction()" method="GET">
     <label for="firstname">First Name</label>
     <input type="text" name="firstname" placeholder="Your First name.." required>
 
@@ -57,13 +64,9 @@
 
     <input type="submit" value="Submit">
   </form>
-
-  <script>
-    function myFunction() {
-      alert("Your comment has been successfully submitted.");
-    }
-  </script>
   
+ 
+
   <script src="../JS/contact.js"></script>
     
 </div>
