@@ -67,11 +67,13 @@ body {
       font-weight: 800;
       background-color: lightsalmon;
       overflow: hidden;
+      text-align: center;
     }
 
     .mywork h2 {
       font-size: 35px;
       font-weight: 800;
+      text-align: center;
     }
     .work {
       background-color: lightgoldenrodyellow;
@@ -85,12 +87,13 @@ body {
     .work h3, h4, h5, h6 {
       font-size: 20px;
       font-weight: 600;
+      text-align: center;
     }
     .work p{
       font-size: 18px;
       font-weight: 400;
-      width: 65%;
-      margin-left: 25%;
+      width: 100%;
+      
     }
 
     @media screen and (max-width: 400px) {
