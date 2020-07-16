@@ -6,7 +6,7 @@
         <title>Godfrey's personal portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../CSS/contact.css">
-        <script src="../JS/contact.js"></script>
+        
       
     </head>
     <body>
@@ -35,7 +35,7 @@
     <h3 class="comment">Leave a comment below</h3>
 
 <div class="container">
-  <form name="form" action="../submit.html" onsubmit="myFunction()" onsubmit="return validationForm" target="_blank" method="post">
+  <form name="form" action="../submit.html" onsubmit="myFunction()" target="_blank" method="GET">
     <label for="firstname">First Name</label>
     <input type="text" name="firstname" placeholder="Your First name.." required>
 
@@ -58,6 +58,11 @@
     <input type="submit" value="Submit">
   </form>
 
+  <script>
+    function myFunction() {
+      alert("Your comment has been successfully submitted. Go Back to the Homepage");
+    }
+  </script>
   
     
 </div>

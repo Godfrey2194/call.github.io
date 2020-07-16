@@ -3,13 +3,13 @@
       alert("Your comment has been successfully submitted. Go Back to the Homepage");
     }
 
-    function validateForm() {
+    /*function validateForm() {
       var x = document.forms["form"]["firstname"].value;
       if (x == "") {
         alert("Name must be filled out");
         return false;
       }
-    }
+    }*/
 
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
