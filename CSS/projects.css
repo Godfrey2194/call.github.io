@@ -56,14 +56,14 @@ body {
     .project-section {
       text-align: center;
       width: auto;
-      margin-left: 15%;
-      margin-right: 15%;
+      
     }
 
     .project-section p {
      
       width: auto;
       font-size: 22px;
+      width: 100%;
 
     }
 

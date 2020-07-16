@@ -8,6 +8,14 @@ function myFunction() {
     }
   }
 
+  var a = document.getElementById("me");
+  a.style.color = "blue";
+
+  var b = document.getElementById("you");
+b.style.color = "blue";
+
+
+
   //Get the button:
 mybutton = document.getElementById("myBtn");
 
