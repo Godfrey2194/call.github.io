@@ -1,8 +1,3 @@
-$(document).ready(function(){
-    $("form").submit(function(){
-      alert("Submitted");
-    });
-  });
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
@@ -14,3 +9,6 @@ function myFunction() {
   }
 }
 
+document.getElementById("welcome").style.fontStyle = "Boulder";
+document.getElementById("w-message").style.fontSize = "19px";
+document.getElementById("w-message").style.color = "yellow";
