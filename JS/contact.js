@@ -12,14 +12,8 @@ function myFunction() {
   }
 }
 
-
-
 function myFunction() {
-  var y = document.getElementById("mail");
-  if (y.className === "mail") {
-    y.className += " alert";
-  } else {
-    y.className = "mail"
-  }
-  alert("You are about to send a direct email to Godfrey! Click 'OK' to continue");
+  alert("You are about to reach me via email! Click 'OK' to confirm and continue");
 }
+
+
