@@ -108,3 +108,7 @@ input[type=submit]:hover {
   .my-header h1 {
       text-align: center;
   }
+
+  video {
+    border-radius: 30%;
+  }
